@@ -1,0 +1,46 @@
+After opening in Vi editor :
+Current form is in Command mode. (Default mode)
+To go to insert mode Press I.
+Esc -> from Insert mode to Command mode.
+
+Typing in Vi:
+i Start typing before the current character
+I Start typing at the start of current line 
+a Start typing after the current character
+A Start typing at the end of current line
+o Start typing on a new line after the current line 
+O Start typing on a new line before the current line.
+
+Type command: (In whatever the mode is press ESC)
+Vi has to be in command mode. 
+To type a command (to save/quit) press colon (:). Which can be achived by pressing " shift-: " in the keyboard.
+example-
+:wq Save and quit 
+:w Save
+:q Quit 
+:w fname Save as fname //
+ZZ Save and quit (Capital double Z)
+:q! Quit discarding changes made 
+:w! Save (and write to non-writable file) //
+
+Undo - :u or :undo
+Redo - Ctrl-R or :redo
+
+Moving around Vi file:
+j To move down 
+k To move up
+h To move left 
+l To move right
+
+Deleting character/line:
+x-> Delete the current character
+X-> Delete the character before the cursor
+r-> Replace the current character
+xp-> Switch two characters 
+dd-> Delete the current line 
+D-> Delete the current line from current character to the end of the line
+
+Copy/Paste line command:
+yy -> (yank yank) copy a line 
+P  -> Paste after the current line 
+p  -> Paste before the current line
